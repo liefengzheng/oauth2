@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: leon-auth
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: zhenglie
+Implementation-Vendor-Id: leon-auth
+Build-Jdk: 1.8.0_72
+Implementation-URL: https://projects.spring.io/spring-cloud/leon-auth
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

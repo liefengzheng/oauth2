@@ -1,0 +1,130 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>leon-auth</groupId>
+  <artifactId>leon-auth</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <parent>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-parent</artifactId>
+		<version>Camden.SR3</version>
+		<relativePath />
+		<!-- lookup parent from repository Brixton.RELEASE -->
+  </parent>
+	
+  <dependencies>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+    </dependency>
+  	<dependency>
+  		<groupId>org.springframework.cloud</groupId>
+  		<artifactId>spring-cloud-starter-security</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework.cloud</groupId>
+  		<artifactId>spring-cloud-starter-oauth2</artifactId>
+  	</dependency>
+  	<dependency>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-feign</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-aop</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-jpa</artifactId>
+	</dependency>
+	<dependency>
+        <groupId>com.hpe.foxcloud</groupId>
+        <artifactId>fox-common-utils</artifactId>
+        <version>0.1.0</version>
+    </dependency>
+  </dependencies>
+  <repositories>
+		<repository>
+			<id>foxcloud</id>
+			<url>http://15.114.102.28:8081/repository/foxcloud</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+		    <id>MVNRepo</id>
+		    <name>Maven Repo</name>
+		    <url>http://central.maven.org/maven2/</url>
+		</repository>
+		<repository>
+		    <id>repository.spring.release</id>
+		    <name>Spring GA Repository</name>
+		    <url>http://repo.spring.io/release</url>
+		</repository>
+		<repository>
+		    <id>repository.spring.milestone</id>
+		    <name>Spring Milestone Repository</name>
+		    <url>http://repo.spring.io/milestone</url>
+		</repository>
+		<repository>
+	    <id>repository.spring.snapshot</id>
+	    <name>Spring Snapshot Repository</name>
+	    <url>http://repo.spring.io/snapshot</url>
+		</repository>
+
+		<repository>
+			<id>central-repos</id>
+			<name>Central Repository</name>
+			<url>http://repo.maven.apache.org/maven2</url>
+		</repository>
+		<repository>
+			<id>central-repos2</id>
+			<name>Central Repository 2</name>
+			<url>http://repo1.maven.org/maven2/</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+		    <id>repository.spring.release</id>
+		    <name>Spring GA Repository</name>
+		    <url>http://repo.spring.io/release</url>
+		</pluginRepository>
+		<pluginRepository>
+		    <id>repository.spring.milestone</id>
+		    <name>Spring Milestone Repository</name>
+		    <url>http://repo.spring.io/milestone</url>
+		</pluginRepository>
+		<pluginRepository>
+	    <id>repository.spring.snapshot</id>
+	    <name>Spring Snapshot Repository</name>
+	    <url>http://repo.spring.io/snapshot</url>
+		</pluginRepository>
+		<pluginRepository>
+			<id>central-repos2</id>
+			<name>Central Repository 2</name>
+			<url>http://repo1.maven.org/maven2/</url>
+		</pluginRepository>
+		<pluginRepository>
+			<id>central-repos</id>
+			<name>Central Repository</name>
+			<url>http://repo.maven.apache.org/maven2</url>
+		</pluginRepository>
+	</pluginRepositories>
+</project>

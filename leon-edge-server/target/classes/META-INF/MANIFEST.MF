@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: leon-edge-server
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: zhenglie
+Implementation-Vendor-Id: leon-edge-server
+Build-Jdk: 1.8.0_72
+Implementation-URL: https://www.hpe.com/leon-edge-server
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
