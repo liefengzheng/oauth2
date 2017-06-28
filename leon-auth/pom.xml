@@ -60,7 +60,7 @@
   <repositories>
 		<repository>
 			<id>foxcloud</id>
-			<url>http://15.114.102.28:8081/repository/foxcloud</url>
+			<url>http://XXX:2017/repository/leoncloud</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
