@@ -5,22 +5,15 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <parent>
-		<groupId>com.hpe.foxcloud</groupId>
+		<groupId>com.dxc.leoncloud</groupId>
 		<artifactId>fox-baseplatform</artifactId>
 		<version>0.1.0</version>
   </parent>
 	
-  <distributionManagement>
-		<repository>
-			<id>foxcloud</id>
-			<url>http://15.114.102.28:8081/repository/foxcloud/</url>
-		</repository>
-	</distributionManagement>
-
 	<repositories>
 		<repository>
 			<id>foxcloud</id>
-			<url>http://15.114.102.28:8081/repository/foxcloud/</url>
+			<url>http://XXX:2017/repository/leoncloud/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
